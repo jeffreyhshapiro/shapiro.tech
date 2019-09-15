@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { space, layout, color, border } from 'styled-system'
+import styled from "styled-components"
+import { space, layout, color, border } from "styled-system"
 
 export const Container = styled.section`
   display: flex;
@@ -9,4 +9,4 @@ export const Container = styled.section`
   ${layout}
   ${color}
   ${border}
-`;
+`

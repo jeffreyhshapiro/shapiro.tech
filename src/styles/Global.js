@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components"
 
 export default createGlobalStyle`
   @keyframes opacity-in {
@@ -33,14 +33,14 @@ export default createGlobalStyle`
 
   a {
     color: steelblue;
-  }
 
-  a:hover {
-    background: red;
-    color: white;
-    font-style: italic;
-    font-weight: 800;
-    text-decoration: none;
-    padding: 4px 4px;
+    &:hover {
+      background: red;
+      color: white;
+      font-style: italic;
+      font-weight: 800;
+      text-decoration: none;
+      padding: 4px 4px;
+    }
   }
-`;
+`

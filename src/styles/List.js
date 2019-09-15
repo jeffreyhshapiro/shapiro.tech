@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { space } from 'styled-system';
+import styled from "styled-components"
+import { space } from "styled-system"
 
 export const UnorderedList = styled.ul`
   ${space}
-`;
+`
 
 export const ListItem = styled.li`
   position: relative;
@@ -22,4 +22,4 @@ export const ListItem = styled.li`
       }`
     }
   }}
-`;
+`
