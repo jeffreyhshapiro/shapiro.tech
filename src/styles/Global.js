@@ -13,14 +13,10 @@ export default createGlobalStyle`
   }
 
   html {
-    font-size: 12px;
     font-family: system-ui, sans-serif;
     opacity: 1;
     animation: opacity-in 0.2s ease-in;
-
-    @media (min-width: 768px) {
-      font-size: 16px;
-    }
+    font-size: 16px;
   }
 
   .container-root {

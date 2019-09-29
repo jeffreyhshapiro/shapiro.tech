@@ -10,5 +10,5 @@ export const Header = styled.h1`
 export const Text = styled.p`
   ${fontSize}
   ${space}
-  line-height: 120%;
+  line-height: 130%;
 `

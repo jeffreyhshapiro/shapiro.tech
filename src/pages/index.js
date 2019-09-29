@@ -27,8 +27,8 @@ const IndexPage = () => (
               can help those in need
             </Text>
           </ListItem>
-          {aboutMe.map(about => (
-            <ListItem mb={2} ml={4} includeBullet>
+          {aboutMe.map((about, i) => (
+            <ListItem mb={2} ml={4} includeBullet key={i}>
               <Text>{about}</Text>
             </ListItem>
           ))}
